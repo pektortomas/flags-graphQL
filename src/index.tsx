@@ -1,13 +1,21 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import { createClient } from "urql";
+import { Provider } from "urql/dist/types/context";
 import { App } from "./App";
 import reportWebVitals from "./reportWebVitals";
 
+const client = createClient({
+  url: "https://countries.trevorblades.com/",
+});
+
 const root = ReactDOM.createRoot(document.getElementById("root") as HTMLElement);
 root.render(
-  //<React.StrictMode>
-  <App />
-  //</React.StrictMode>
+  <Provider value={client}>
+    {/* <React.StrictMode> */}
+    <App />
+    {/* </React.StrictMode> */}
+  </Provider>
 );
 
 // If you want to start measuring performance in your app, pass a function

@@ -18,5 +18,14 @@ Do kódu můžeš psát komentáře, pokud bys něco dopracoval lépe, nebo abys
 
 ## Postup
 
-- ### Commit #1
-  Příprava aplikace
+### Commit #1
+
+Příprava aplikace
+
+### Commit #2
+
+Instalace potřebných dep.
+
+### Commit #3
+
+Setup clienta
