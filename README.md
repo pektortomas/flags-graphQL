@@ -40,4 +40,15 @@ Návrh logiky renderování component a fetch queries
 
 ### Commit #6
 
-Stylování component s EmotionJS a úprava UI stránkování
+Stylování component s EmotionJS a úprava UI stránkování + bonus fnc na vlajky
+
+### Commit #7
+
+Update readme a nepotřebných dep.
+
+## Použité dep.
+
+- urql
+- graphql
+- emotion/react
+- typescript
