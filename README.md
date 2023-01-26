@@ -29,3 +29,7 @@ Instalace potřebných dep.
 ### Commit #3
 
 Setup clienta
+
+### Commit #4
+
+Návrh struktury projektu
