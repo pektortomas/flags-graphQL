@@ -33,3 +33,9 @@ Setup clienta
 ### Commit #4
 
 Návrh struktury projektu
+
+### Commit #5
+
+Návrh logiky renderování component a fetch queries
+
+### Commit #6

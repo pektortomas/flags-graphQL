@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { createClient } from "urql";
-import { Provider } from "urql/dist/types/context";
+import { createClient, Provider } from "urql";
 import { App } from "./App";
 import reportWebVitals from "./reportWebVitals";
 
