@@ -39,3 +39,5 @@ Návrh struktury projektu
 Návrh logiky renderování component a fetch queries
 
 ### Commit #6
+
+Stylování component s EmotionJS a úprava UI stránkování
