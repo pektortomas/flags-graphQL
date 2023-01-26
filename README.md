@@ -1,46 +1,22 @@
-# Getting Started with Create React App
+# Vypracování úkolu
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Zadání
 
-## Available Scripts
+Zadání: Cílem je vytvořit jednoduchou webovou stránku se seznamem zemí a jazyků, které v dané zemi jsou k dispozici. Data, se kterými budete pracovat jsou k dispozici na endpointu: https://countries.trevorblades.com/
 
-In the project directory, you can run:
+Použij React (CRA nebo Next.js) a udělej základní setup projektu, aby se v rámci projektu dobře pracovalo s GraphQL. Klienta můžeš zvolit jakého chceš, vhodné je, aby klient šel použít pomocí React Hooks. Celý kód by měl být napsaný v Typescriptu.
 
-### `npm start`
+Commituj tak, jak bys commitoval do reálného projektu, takže rozděl commity do logických celků atd. Cílem není udělat obrovskou super aplikaci, ale to nejjednoduší nejefektivnější řešení (méně je více, když nepočítám závislosti, knihovny).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+#### Popis aplikace
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Na hlavní straně bude výpis všech zemí s vybranými dostupnými informacemi o dané zemi. U dané země budou vypsány i jazyky, které jsou v dané zemi k dispozici. Protože dotaz na jazyky může být časově náročný, je potřeba, aby se nestahovala data o jazyku v rámci jedné query se všemi daty najednou a jazyky se tedy stahovali ideálně až tehdy, pokud bude konkrétní zem vypsaná ve výpisu – například pokud budu mít stránkování a na každé stránce bude 10 záznamů, aby se stahovali pouze ty jazyky u těch zemí, které jsou vypsány.
 
-### `npm test`
+Výsledek nemusí být celý funkční, důležité je, jak bys k problému přistupoval. Pokud nebudou všechny věci správně nebo zvolíš špatný tooling, nic se nestane. Jde nám o to, abychom zjistili úroveň tvé zkušenosti s výše používanými technologiemi.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Do kódu můžeš psát komentáře, pokud bys něco dopracoval lépe, nebo abys zdůvodnil svoje rozhodnutí.
 
-### `npm run build`
+## Postup
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- ### Commit #1
+  Příprava aplikace
