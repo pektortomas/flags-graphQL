@@ -1,5 +1,3 @@
-# Vypracování úkolu
-
 ## Zadání
 
 Zadání: Cílem je vytvořit jednoduchou webovou stránku se seznamem zemí a jazyků, které v dané zemi jsou k dispozici. Data, se kterými budete pracovat jsou k dispozici na endpointu: https://countries.trevorblades.com/
